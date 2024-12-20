@@ -1,0 +1,11 @@
+Ich habe nochmal wiederholt, was eine zip Funktion ist.
+Wenn:
+inp1 = "101010"
+inp2 = "110011"
+Mit der zip Funktion wird eine Liste aus Elementen an gleicher Position erzeugt 
+
+Beispiel:
+list(zip(inp1, inp2))
+Output: [('1', '1'), ('0', '1'), ('1', '0'), ('0', '0'), ('1', '1'), ('0', '1')]
+
+Also: Vergleiche mit sum(c1 != c2 for c1, c2 in zip(inp1, inp2)) die Elemente beider Inputs zeichenweise um den Hamming-Abstand zu errechnen
